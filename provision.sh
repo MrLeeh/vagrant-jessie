@@ -13,5 +13,6 @@ echo -e "\n--- Customize vim and mc ---\n"
 cd ~
 git clone https://github.com/MrLeeh/.vim.git
 mkdir .config
+ln -s .vim/.vimrc .vimrc
 git clone https://github.com/MrLeeh/mc.git
 
